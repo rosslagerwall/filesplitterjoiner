@@ -1,0 +1,19 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TMain','FORMDATA',[
+  'TPF0'#5'TMain'#4'Main'#4'Left'#3'='#1#6'Height'#2'N'#3'Top'#3#225#0#5'Width'
+  +#3'I'#1#13'ActiveControl'#7#8'filename'#11'BorderIcons'#11#12'biSystemMenu'
+  +#10'biMinimize'#0#11'BorderStyle'#7#8'bsSingle'#7'Caption'#6#11'File Joiner'
+  +#12'ClientHeight'#2'N'#11'ClientWidth'#3'I'#1#10'ParentFont'#8#10'LCLVersion'
+  +#6#6'0.9.26'#0#6'TLabel'#6'Label1'#4'Left'#2#6#6'Height'#2#14#3'Top'#2#27#5
+  +'Width'#2':'#7'Caption'#6#9'Filename:'#11'ParentColor'#8#0#0#6'TLabel'#6'Lab'
+  +'el2'#4'Left'#2#6#6'Height'#2#14#3'Top'#2#3#5'Width'#3#175#0#7'Caption'#6' E'
+  +'nter the name of the last file:'#11'ParentColor'#8#0#0#5'TEdit'#8'filename'
+  +#4'Left'#2'@'#6'Height'#2#20#3'Top'#2#24#5'Width'#3#178#0#8'TabOrder'#2#0#0#0
+  +#7'TButton'#4'join'#4'Left'#3#244#0#6'Height'#2#22#3'Top'#2#22#5'Width'#2'F'
+  +#7'Caption'#6#4'Join'#7'OnClick'#7#9'joinClick'#8'TabOrder'#2#1#0#0#12'TProg'
+  +'ressBar'#8'progress'#4'Left'#2#16#6'Height'#2#20#3'Top'#2'0'#5'Width'#3#225
+  +#0#3'Max'#2'd'#8'TabOrder'#2#3#0#0#7'TButton'#5'about'#4'Left'#3#245#0#6'Hei'
+  +'ght'#2#21#3'Top'#2'0'#5'Width'#2'E'#7'Caption'#6#5'About'#7'OnClick'#7#10'a'
+  +'boutClick'#8'TabOrder'#2#2#0#0#0
+]);

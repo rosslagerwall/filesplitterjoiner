@@ -1,0 +1,89 @@
+object Main: TMain
+  Left = 291
+  Height = 82
+  Top = 180
+  Width = 308
+  ActiveControl = split
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'File Splitter'
+  ClientHeight = 82
+  ClientWidth = 308
+  ParentFont = False
+  LCLVersion = '0.9.26'
+  object Label2: TLabel
+    Left = 8
+    Height = 14
+    Top = 12
+    Width = 58
+    Caption = 'Filename:'
+    ParentColor = False
+  end
+  object split: TButton
+    Left = 248
+    Height = 24
+    Top = 8
+    Width = 53
+    Caption = 'Split'
+    OnClick = splitClick
+    TabOrder = 0
+  end
+  object filename: TEdit
+    Left = 64
+    Height = 18
+    Top = 8
+    Width = 173
+    TabOrder = 1
+  end
+  object partsText: TEdit
+    Left = 64
+    Height = 18
+    Top = 32
+    Width = 37
+    TabOrder = 2
+    Text = '2'
+  end
+  object progress: TProgressBar
+    Left = 8
+    Height = 18
+    Top = 54
+    Width = 235
+    Max = 100
+    TabOrder = 7
+  end
+  object about: TButton
+    Left = 248
+    Height = 23
+    Top = 51
+    Width = 53
+    Caption = 'About'
+    OnClick = aboutClick
+    TabOrder = 3
+  end
+  object RadioButton1: TRadioButton
+    Left = 8
+    Height = 23
+    Top = 31
+    Width = 55
+    Caption = 'Parts'
+    Checked = True
+    State = cbChecked
+    TabOrder = 4
+  end
+  object RadioButton2: TRadioButton
+    Left = 104
+    Height = 23
+    Top = 31
+    Width = 99
+    Caption = 'Filesize (mb)'
+    TabOrder = 5
+  end
+  object sizeText: TEdit
+    Left = 200
+    Height = 18
+    Top = 31
+    Width = 37
+    TabOrder = 6
+    Text = '2'
+  end
+end

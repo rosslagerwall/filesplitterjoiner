@@ -1,0 +1,63 @@
+object Main: TMain
+  Left = 317
+  Height = 78
+  Top = 225
+  Width = 329
+  ActiveControl = filename
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'File Joiner'
+  ClientHeight = 78
+  ClientWidth = 329
+  ParentFont = False
+  LCLVersion = '0.9.26'
+  object Label1: TLabel
+    Left = 6
+    Height = 14
+    Top = 27
+    Width = 58
+    Caption = 'Filename:'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 6
+    Height = 14
+    Top = 3
+    Width = 175
+    Caption = 'Enter the name of the last file:'
+    ParentColor = False
+  end
+  object filename: TEdit
+    Left = 64
+    Height = 20
+    Top = 24
+    Width = 178
+    TabOrder = 0
+  end
+  object join: TButton
+    Left = 244
+    Height = 22
+    Top = 22
+    Width = 70
+    Caption = 'Join'
+    OnClick = joinClick
+    TabOrder = 1
+  end
+  object progress: TProgressBar
+    Left = 16
+    Height = 20
+    Top = 48
+    Width = 225
+    Max = 100
+    TabOrder = 3
+  end
+  object about: TButton
+    Left = 245
+    Height = 21
+    Top = 48
+    Width = 69
+    Caption = 'About'
+    OnClick = aboutClick
+    TabOrder = 2
+  end
+end

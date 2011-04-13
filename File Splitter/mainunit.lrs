@@ -1,0 +1,24 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TMain','FORMDATA',[
+  'TPF0'#5'TMain'#4'Main'#4'Left'#3'#'#1#6'Height'#2'R'#3'Top'#3#180#0#5'Width'
+  +#3'4'#1#13'ActiveControl'#7#5'split'#11'BorderIcons'#11#12'biSystemMenu'#10
+  +'biMinimize'#0#11'BorderStyle'#7#8'bsSingle'#7'Caption'#6#13'File Splitter'
+  +#12'ClientHeight'#2'R'#11'ClientWidth'#3'4'#1#10'ParentFont'#8#10'LCLVersion'
+  +#6#6'0.9.26'#0#6'TLabel'#6'Label2'#4'Left'#2#8#6'Height'#2#14#3'Top'#2#12#5
+  +'Width'#2':'#7'Caption'#6#9'Filename:'#11'ParentColor'#8#0#0#7'TButton'#5'sp'
+  +'lit'#4'Left'#3#248#0#6'Height'#2#24#3'Top'#2#8#5'Width'#2'5'#7'Caption'#6#5
+  +'Split'#7'OnClick'#7#10'splitClick'#8'TabOrder'#2#0#0#0#5'TEdit'#8'filename'
+  +#4'Left'#2'@'#6'Height'#2#18#3'Top'#2#8#5'Width'#3#173#0#8'TabOrder'#2#1#0#0
+  +#5'TEdit'#9'partsText'#4'Left'#2'@'#6'Height'#2#18#3'Top'#2' '#5'Width'#2'%'
+  +#8'TabOrder'#2#2#4'Text'#6#1'2'#0#0#12'TProgressBar'#8'progress'#4'Left'#2#8
+  +#6'Height'#2#18#3'Top'#2'6'#5'Width'#3#235#0#3'Max'#2'd'#8'TabOrder'#2#7#0#0
+  +#7'TButton'#5'about'#4'Left'#3#248#0#6'Height'#2#23#3'Top'#2'3'#5'Width'#2'5'
+  +#7'Caption'#6#5'About'#7'OnClick'#7#10'aboutClick'#8'TabOrder'#2#3#0#0#12'TR'
+  +'adioButton'#12'RadioButton1'#4'Left'#2#8#6'Height'#2#23#3'Top'#2#31#5'Width'
+  +#2'7'#7'Caption'#6#5'Parts'#7'Checked'#9#5'State'#7#9'cbChecked'#8'TabOrder'
+  +#2#4#0#0#12'TRadioButton'#12'RadioButton2'#4'Left'#2'h'#6'Height'#2#23#3'Top'
+  +#2#31#5'Width'#2'c'#7'Caption'#6#13'Filesize (mb)'#8'TabOrder'#2#5#0#0#5'TEd'
+  +'it'#8'sizeText'#4'Left'#3#200#0#6'Height'#2#18#3'Top'#2#31#5'Width'#2'%'#8
+  +'TabOrder'#2#6#4'Text'#6#1'2'#0#0#0
+]);
