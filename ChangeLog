@@ -1,12 +1,1 @@
-changeset:   1:4ac45835f99d
-tag:         tip
-user:        Ross Lagerwall <rosslagerwall@gmail.com>
-date:        Wed Apr 13 07:23:15 2011 +0200
-summary:     Added tag v0.1 for changeset be61e698553e
-
-changeset:   0:be61e698553e
-tag:         v0.1
-user:        Ross Lagerwall <rosslagerwall@gmail.com>
-date:        Wed Apr 13 07:23:04 2011 +0200
-summary:     Initial commit
-
+[Populated during the creation of a release.]
